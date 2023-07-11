@@ -1,4 +1,8 @@
 Name: Workflow_8183
+Compute:
+  Type: EC2
+  Fleet: Linux.x86-64.Large
+  SharedInstance: true
 SchemaVersion: "1.0"
 
 # Optional - Set automatic triggers.
